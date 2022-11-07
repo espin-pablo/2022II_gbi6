@@ -3,10 +3,12 @@
 ## Pablo Espín 
 En esta actividad se va a hacer una evaluación de lo aprendido en Unix
 
-Soy de **Cayambe**
+**DATOS PERSONALES**
 
-Tengo **20 años**
+  Soy de **Cayambe**
 
-**Idiomas:** Español, Inglés 
+  Tengo **20 años**
 
-**Deportes:** Fútbol 
+  **Idiomas:** Español, Inglés 
+
+  **Deportes:** Fútbol 
