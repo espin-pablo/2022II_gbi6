@@ -1,0 +1,31 @@
+danesp@LAPTOP-DGF0CJ8Q:~/CSB/unix/data$ ### Write a script that, for a given CSV file and column number, prints
+#the corresponding column name;
+#the number of distinct values in the column;
+#the minimum value;
+#the maximum value.
+danesp@LAPTOP-DGF0CJ8Q:~/CSB/unix/data$ ls
+ Buzzard2015_about.txt     Gesquiere2011_data.csv   Pacifici2013_about.txt   Saavedra2013_about.txt  'script 1.10.2 2.sh'  'script 1.10.3 2.sh'
+ Buzzard2015_data.csv      Marra2014_about.txt      Pacifici2013_data.csv    asd.sh                  'script 1.10.2 3.sh'  'script 1.10.4 1.sh'
+ Gesquiere2011_about.txt   Marra2014_data.fasta     Saavedra2013             miRNA                   'script 1.10.3 1.sh'
+danesp@LAPTOP-DGF0CJ8Q:~/CSB/unix/data$ nano 'script 1.10.4 1.sh'
+danesp@LAPTOP-DGF0CJ8Q:~/CSB/unix/data$ bash 'script 1.10.4 1.sh' Buzzard2015_data.csv 1
+Columna
+age
+Datos distintos:
+9
+Dato minimo:
+10
+Dato maximo:
+120
+danesp@LAPTOP-DGF0CJ8Q:~/CSB/unix/data$ #seleccionando otra columba
+danesp@LAPTOP-DGF0CJ8Q:~/CSB/unix/data$ #columna
+danesp@LAPTOP-DGF0CJ8Q:~/CSB/unix/data$ bash 'script 1.10.4 1.sh' Buzzard2015_data.csv 10
+Columna
+LDMC
+Datos distintos:
+115
+Dato minimo:
+
+Dato maximo:
+0.667512788
+danesp@LAPTOP-DGF0CJ8Q:~/CSB/unix/data$
